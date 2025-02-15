@@ -1,0 +1,57 @@
+body {
+    background-color: #931020;
+    color: white;
+}
+
+.btn-custom {
+    background-color: #f99c0a; 
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #fbe3be;
+    color: black;
+}
+
+.navbar-custom {
+    background-color: white;
+    border-radius: 15px;
+}
+
+.nav-link-custom {
+    color: black !important;
+    font-weight: bold;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link-custom:hover {
+    background-color: #fbe3be;
+    color: #000 !important;
+    cursor: pointer;
+}
+
+.iframe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.iframe-container iframe {
+    width: 80%;
+    height: 80%;
+}
+
+.modal-content {
+    background-color:#48286b; 
+}
+
+
+
+
+
+
